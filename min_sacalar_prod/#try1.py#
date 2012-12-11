@@ -1,0 +1,18 @@
+#Open the input file (Rememember to close this!!)
+
+i = open("C:\Documents and Settings\\ct057688\\My Documents\\Current Data\\self\\jam\\min_sacalar_prod\\A-small-practice.in","r")
+
+o = open("C:\\Documents and Settings\\ct057688\\My Documents\\Current Data\\self\\jam\\min_sacalar_prod\\A-small-practice.out","w")
+
+# read the total number of test cases in this input file.
+test_cases = f.readline()
+
+print "Total number of test cases in this file : " + test_cases
+
+for case in range(1, int(test_cases) + 1):
+    ch_count = f.realine()        
+    vector1 = f.readline()
+    vector2 = f.readline()
+
+    #Have read the following vectors
+    
