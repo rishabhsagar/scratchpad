@@ -9,15 +9,16 @@ class Robot:
 		self.position = position
 		
 def BuildStack(ip):
-    # ip is a string with position and color in pairs.  no seperators.
-    # Example ip: B4O1B5B6B2O2
+    # ip is a string with position and color in pairs.
+    # Example ip: B 4 O 1 B 5 B 6 B 2 O 2
     
-    x = []                                        # x is the list to be returned.  Initialise
-    
+    x = []                                # x is the list to be returned.
+		
+    ip = ip.split(' ')
+
     # Output is a list of buttons,in same order as they appear in the list.
-    for i in range(0, len(ip) / 2):
-        x.append(Button(ip[0], int(ip[1])))            # create a new button and append to list.
-        ip = ip[2:]                                    # trim the ip to remove the last two bits
+    for i in range(0, len(ip), 2):
+        x.append(Button(ip[i], int(ip[i+1])))          # create a new button and append to list.
     
     # Return x
     return x
@@ -66,7 +67,7 @@ def PressButton(robots, stack):
 	
 # Main programm to run the simulation
 tick = 0				# Simulates clock ticks.
-ip = 'O2B1B2O4'			# Simulated input, in the real problem, this will come from file.
+ip = 'O 2 B 1 B 2 O 4'			# Simulated input, in the real problem, this will come from file.
 stk = BuildStack(ip)	# build stack from parsed input.
 
 O = Robot('O', 1)
@@ -77,3 +78,5 @@ while (len(stk) > 0 ):
 	MoveRobot(O, stk)
 	tick = tick + 1 + PressButton([B,O], stk)
 	print "Tick"
+
+print "Total time (in ticks) : " + str(tick)
