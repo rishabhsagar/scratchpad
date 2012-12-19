@@ -32,22 +32,27 @@ def MoveRobot(robots, stack):
 
 
   for robot in robots:
+    if ( len(stack) > 0 ):
+      if ( robot.color = stack[0].color and robot.position == stack[0].position ):
+        stack.pop(0)
+
     targetPosition = 0            # initiliase the target position of the robot to move.
-          
-    for element in stack:
-      if ( robot.color == element.color ):
-        targetPosition = int(element.position)
-        break
-          
-    if ( targetPosition == 0 or targetPosition == robot.position):
-      # robot has no buttons to visit or is already @ correct position
-      pass
-    else:
-      if ( targetPosition < robot.position ):
-        robot.position = robot.position - 1
+
+    if ( len(stack) > 0):
+      for element in stack:
+        if ( robot.color == element.color ):
+          targetPosition = int(element.position)
+          break
             
-      if (targetPosition > robot.position):
-        robot.position = robot.position + 1
+      if ( targetPosition == 0 or targetPosition == robot.position):
+        # robot has no buttons to visit or is already @ correct position
+        pass
+      else:
+        if ( targetPosition < robot.position ):
+          robot.position = robot.position - 1
+              
+        if (targetPosition > robot.position):
+          robot.position = robot.position + 1
 
 def PressButton(robots, stack):
   # Receives an array of robots, and a stack.
