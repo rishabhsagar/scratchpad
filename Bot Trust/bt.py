@@ -85,6 +85,7 @@ def RunCase(line):
   #Build stack from inputline.
   stk = BuildStack(line)
 
+  # Build and initialise robots.
   O = Robot('O', 1)
   B = Robot('B', 1)
 
@@ -106,7 +107,7 @@ def RunSimulation(inputFile, outputFile):
     inputLine = f.readline()[2:]
     timeTaken = RunCase(inputLine)
     print "Case #" + str((lines + 1)) + ": " + str(timeTaken)
-    o.writelines("Case #" + str((lines + 1)) + ": " + str(timeTaken))
+    o.writelines("Case #" + str((lines + 1)) + ": " + str(timeTaken) + "\n")
 
   f.close()
   o.close()
