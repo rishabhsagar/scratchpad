@@ -1,0 +1,7 @@
+#Algo:
+
+While len(Stack) > 0
+  setTarget(B, stack)
+  setTarget(O, stack)
+  MoveRobot([B,O] , stack)
+  PressButton([B,O], stack)

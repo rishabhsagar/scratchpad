@@ -1,0 +1,144 @@
+
+
+Exception in thread Thread-2227:
+Traceback (most recent call last):
+  File "C:\Python27\lib\threading.py", line 552, in __bootstrap_inner
+    self.run()
+  File "C:\Documents and Settings\ct057688\My Documents\Current Data\self\spotter\pythonSrc\twsmulti.py", line 156, in run
+  File "C:\Documents and Settings\ct057688\My Documents\Current Data\self\spotter\pythonSrc\twsmulti.py", line 35, in htmlSpider
+    opener = logOn(credentials[0], credentials[1], credentials[2])
+  File "C:\Documents and Settings\ct057688\My Documents\Current Data\self\spotter\pythonSrc\twsmulti.py", line 22, in logOn
+    opener.open(hostname + '/DSViewer/Main')
+  File "C:\Python27\lib\urllib2.py", line 394, in open
+    response = self._open(req, data)
+  File "C:\Python27\lib\urllib2.py", line 412, in _open
+    '_open', req)
+  File "C:\Python27\lib\urllib2.py", line 372, in _call_chain
+    result = func(*args)
+  File "C:\Python27\lib\urllib2.py", line 1199, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "C:\Python27\lib\urllib2.py", line 1174, in do_open
+    raise URLError(err)
+URLError: <urlopen error [Errno 10048] Only one usage of each socket address (protocol/network address/port) is normally permitted>
+
+Exception in thread Thread-2228:
+Traceback (most recent call last):
+  File "C:\Python27\lib\threading.py", line 552, in __bootstrap_inner
+    self.run()
+  File "C:\Documents and Settings\ct057688\My Documents\Current Data\self\spotter\pythonSrc\twsmulti.py", line 156, in run
+  File "C:\Documents and Settings\ct057688\My Documents\Current Data\self\spotter\pythonSrc\twsmulti.py", line 35, in htmlSpider
+    opener = logOn(credentials[0], credentials[1], credentials[2])
+  File "C:\Documents and Settings\ct057688\My Documents\Current Data\self\spotter\pythonSrc\twsmulti.py", line 22, in logOn
+    opener.open(hostname + '/DSViewer/Main')
+  File "C:\Python27\lib\urllib2.py", line 394, in open
+    response = self._open(req, data)
+  File "C:\Python27\lib\urllib2.py", line 412, in _open
+    '_open', req)
+  File "C:\Python27\lib\urllib2.py", line 372, in _call_chain
+    result = func(*args)
+  File "C:\Python27\lib\urllib2.py", line 1199, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "C:\Python27\lib\urllib2.py", line 1174, in do_open
+    raise URLError(err)
+URLError: <urlopen error [Errno 10048] Only one usage of each socket address (protocol/network address/port) is normally permitted>
+
+Exception in thread Thread-2229:
+Traceback (most recent call last):
+  File "C:\Python27\lib\threading.py", line 552, in __bootstrap_inner
+    self.run()
+  File "C:\Documents and Settings\ct057688\My Documents\Current Data\self\spotter\pythonSrc\twsmulti.py", line 156, in run
+  File "C:\Documents and Settings\ct057688\My Documents\Current Data\self\spotter\pythonSrc\twsmulti.py", line 35, in htmlSpider
+    opener = logOn(credentials[0], credentials[1], credentials[2])
+  File "C:\Documents and Settings\ct057688\My Documents\Current Data\self\spotter\pythonSrc\twsmulti.py", line 22, in logOn
+    opener.open(hostname + '/DSViewer/Main')
+  File "C:\Python27\lib\urllib2.py", line 394, in open
+    response = self._open(req, data)
+  File "C:\Python27\lib\urllib2.py", line 412, in _open
+    '_open', req)
+  File "C:\Python27\lib\urllib2.py", line 372, in _call_chain
+    result = func(*args)
+  File "C:\Python27\lib\urllib2.py", line 1199, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "C:\Python27\lib\urllib2.py", line 1174, in do_open
+    raise URLError(err)
+URLError: <urlopen error [Errno 10048] Only one usage of each socket address (protocol/network address/port) is normally permitted>
+
+Exception in thread Thread-2232:
+Traceback (most recent call last):
+  File "C:\Python27\lib\threading.py", line 552, in __bootstrap_inner
+    self.run()
+  File "C:\Documents and Settings\ct057688\My Documents\Current Data\self\spotter\pythonSrc\twsmulti.py", line 156, in run
+  File "C:\Documents and Settings\ct057688\My Documents\Current Data\self\spotter\pythonSrc\twsmulti.py", line 38, in htmlSpider
+    resp = opener.open( hostname + prelink)
+  File "C:\Python27\lib\urllib2.py", line 394, in open
+    response = self._open(req, data)
+  File "C:\Python27\lib\urllib2.py", line 412, in _open
+    '_open', req)
+  File "C:\Python27\lib\urllib2.py", line 372, in _call_chain
+    result = func(*args)
+  File "C:\Python27\lib\urllib2.py", line 1199, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "C:\Python27\lib\urllib2.py", line 1174, in do_open
+    raise URLError(err)
+URLError: <urlopen error [Errno 10048] Only one usage of each socket address (protocol/network address/port) is normally permitted>
+
+Exception in thread Thread-2241:
+Traceback (most recent call last):
+  File "C:\Python27\lib\threading.py", line 552, in __bootstrap_inner
+    self.run()
+  File "C:\Documents and Settings\ct057688\My Documents\Current Data\self\spotter\pythonSrc\twsmulti.py", line 156, in run
+  File "C:\Documents and Settings\ct057688\My Documents\Current Data\self\spotter\pythonSrc\twsmulti.py", line 35, in htmlSpider
+    opener = logOn(credentials[0], credentials[1], credentials[2])
+  File "C:\Documents and Settings\ct057688\My Documents\Current Data\self\spotter\pythonSrc\twsmulti.py", line 22, in logOn
+    opener.open(hostname + '/DSViewer/Main')
+  File "C:\Python27\lib\urllib2.py", line 394, in open
+    response = self._open(req, data)
+  File "C:\Python27\lib\urllib2.py", line 412, in _open
+    '_open', req)
+  File "C:\Python27\lib\urllib2.py", line 372, in _call_chain
+    result = func(*args)
+  File "C:\Python27\lib\urllib2.py", line 1199, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "C:\Python27\lib\urllib2.py", line 1174, in do_open
+    raise URLError(err)
+URLError: <urlopen error [Errno 10048] Only one usage of each socket address (protocol/network address/port) is normally permitted>
+
+Exception in thread Thread-2244:
+Traceback (most recent call last):
+  File "C:\Python27\lib\threading.py", line 552, in __bootstrap_inner
+    self.run()
+  File "C:\Documents and Settings\ct057688\My Documents\Current Data\self\spotter\pythonSrc\twsmulti.py", line 156, in run
+  File "C:\Documents and Settings\ct057688\My Documents\Current Data\self\spotter\pythonSrc\twsmulti.py", line 35, in htmlSpider
+    opener = logOn(credentials[0], credentials[1], credentials[2])
+  File "C:\Documents and Settings\ct057688\My Documents\Current Data\self\spotter\pythonSrc\twsmulti.py", line 22, in logOn
+    opener.open(hostname + '/DSViewer/Main')
+  File "C:\Python27\lib\urllib2.py", line 394, in open
+    response = self._open(req, data)
+  File "C:\Python27\lib\urllib2.py", line 412, in _open
+    '_open', req)
+  File "C:\Python27\lib\urllib2.py", line 372, in _call_chain
+    result = func(*args)
+  File "C:\Python27\lib\urllib2.py", line 1199, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "C:\Python27\lib\urllib2.py", line 1174, in do_open
+    raise URLError(err)
+URLError: <urlopen error [Errno 10048] Only one usage of each socket address (protocol/network address/port) is normally permitted>
+
+Exception in thread Thread-2245:
+Traceback (most recent call last):
+  File "C:\Python27\lib\threading.py", line 552, in __bootstrap_inner
+    self.run()
+  File "C:\Documents and Settings\ct057688\My Documents\Current Data\self\spotter\pythonSrc\twsmulti.py", line 156, in run
+  File "C:\Documents and Settings\ct057688\My Documents\Current Data\self\spotter\pythonSrc\twsmulti.py", line 38, in htmlSpider
+    resp = opener.open( hostname + prelink)
+  File "C:\Python27\lib\urllib2.py", line 394, in open
+    response = self._open(req, data)
+  File "C:\Python27\lib\urllib2.py", line 412, in _open
+    '_open', req)
+  File "C:\Python27\lib\urllib2.py", line 372, in _call_chain
+    result = func(*args)
+  File "C:\Python27\lib\urllib2.py", line 1199, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "C:\Python27\lib\urllib2.py", line 1174, in do_open
+    raise URLError(err)
+URLError: <urlopen error [Errno 10048] Only one usage of each socket address (protocol/network address/port) is normally permitted
