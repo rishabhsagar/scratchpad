@@ -20,3 +20,7 @@ def primeUpto(n):
 	
 	#Trim the list to only return required number of primes (last iterations may have yeilded more than required number of primes)
 	return primeList[1:n]
+
+if __name__ == "__main__":
+	pl = primeUpto(300)
+	print pl
