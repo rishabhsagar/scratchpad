@@ -17,6 +17,7 @@ def isPrime(num):
 
   return True # If execution comes to this line, then num in Prime.
 
+#Older, incorrect method.
 def primesUpto(num):
     '''
     @Summary: Generates primes upto num.
