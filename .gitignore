@@ -1,3 +1,5 @@
+# vim files
+*.swp
 *.py[cod]
 
 # C extensions
